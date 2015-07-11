@@ -7,6 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container-fluid">
+
+		
+			<ul class="nav navbar-nav navbar-left">
+	        		<li><%= link_to "Gallery", '#' %></li> 
+	        		<li><%= link_to "Events", '#' %></li>
+	        		<li><%= link_to "Contact", '#' %></li>
+	  		</ul>
+  		</div>
+	</nav>
 <div class= "container">
 	<%= yield %>
 </div>
